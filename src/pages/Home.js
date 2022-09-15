@@ -211,8 +211,8 @@ export const Home = () => {
                             <div className="chet">
                               <h4 className='name-v'>{v.name}</h4>
                               <p className='price_v'>Som {v.price}</p>
-                              <button className='button_otvor' onClick={() => Korzina(v)} >Korzinkaga qoshish</button>
                             </div>
+                            <button className='button_otvor' onClick={() => Korzina(v)} >Korzinkaga qoshish</button>
                           </div>
                         </div>
 
@@ -235,8 +235,8 @@ export const Home = () => {
                             <div className="chet">
                               <h4 className='name-v'>{v.name}</h4>
                               <p className='price_v'>Som {v.price}</p>
-                              <button className='button_otvor' onClick={() => Korzina(v)} >Korzinkaga qoshish</button>
                             </div>
+                            <button className='button_otvor' onClick={() => Korzina(v)} >Korzinkaga qoshish</button>
                           </div>
                         </div>
 
@@ -259,8 +259,8 @@ export const Home = () => {
                             <div className="chet">
                               <h4 className='name-v'>{v.name}</h4>
                               <p className='price_v'>Som {v.price}</p>
-                              <button className='button_otvor' onClick={() => Korzina(v)} >Korzinkaga qoshish</button>
                             </div>
+                            <button className='button_otvor' onClick={() => Korzina(v)} >Korzinkaga qoshish</button>
                           </div>
                         </div>
 
