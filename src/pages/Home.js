@@ -211,6 +211,7 @@ export const Home = () => {
                             <div className="chet">
                               <h4 className='name-v'>{v.name}</h4>
                               <p className='price_v'>Som {v.price}</p>
+                              <button className='button_otvor' onClick={() => Korzina(v)} >Korzinkaga qoshish</button>
                             </div>
                           </div>
                         </div>
@@ -234,6 +235,7 @@ export const Home = () => {
                             <div className="chet">
                               <h4 className='name-v'>{v.name}</h4>
                               <p className='price_v'>Som {v.price}</p>
+                              <button className='button_otvor' onClick={() => Korzina(v)} >Korzinkaga qoshish</button>
                             </div>
                           </div>
                         </div>
@@ -257,6 +259,7 @@ export const Home = () => {
                             <div className="chet">
                               <h4 className='name-v'>{v.name}</h4>
                               <p className='price_v'>Som {v.price}</p>
+                              <button className='button_otvor' onClick={() => Korzina(v)} >Korzinkaga qoshish</button>
                             </div>
                           </div>
                         </div>
@@ -281,11 +284,11 @@ export const Home = () => {
                   or want to become a seller?
                 </p>
                 <p>
-                Fill this form and our manager will contact you next 48 hours.
+                  Fill this form and our manager will contact you next 48 hours.
                 </p>
                 <div className="d-flex mb-2">
                   <input type="text" className='me-1 foot_input' placeholder='Your Name' />
-                  <input type="text"  className='foot_input' placeholder="Your Email"/>
+                  <input type="text" className='foot_input' placeholder="Your Email" />
                 </div>
                 <textarea name="" id="" cols="48" rows="5" placeholder='Your message'></textarea>
               </div>
@@ -296,25 +299,25 @@ export const Home = () => {
           </div>
         </div>
         <div className="pas-menu">
-            <div className="menu-2">
-              <ul>
-                <li className='fs-3'>TBayEAT</li>
-              </ul>
-              <ul>
-                <li className='ms-2 '>Home</li>
-                <li className='ms-2 '>About</li>
-                <li className='ms-2 '>Contact</li>
-                <li className='ms-2 '>Login</li>
-              </ul>
-              <ul>
-                <li>
-                  <img src="instagram.png" alt=""  className='insta'/>
-                </li>
-                <li>
-                  <img src="Facebook.png" alt="" />
-                </li>
-              </ul>
-            </div>
+          <div className="menu-2">
+            <ul>
+              <li className='fs-3'>TBayEAT</li>
+            </ul>
+            <ul>
+              <li className='ms-2 '>Home</li>
+              <li className='ms-2 '>About</li>
+              <li className='ms-2 '>Contact</li>
+              <li className='ms-2 '>Login</li>
+            </ul>
+            <ul>
+              <li>
+                <img src="instagram.png" alt="" className='insta' />
+              </li>
+              <li>
+                <img src="Facebook.png" alt="" />
+              </li>
+            </ul>
+          </div>
         </div>
       </footer>
     </div>
